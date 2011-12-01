@@ -1,0 +1,9 @@
+ /*
+  * 3cframework
+  * http://www.contao.org/erweiterungsliste/view/3CFramework.html
+  */
+  
+ /*
+  * DC_Memory
+  * http://www.contao.org/erweiterungsliste/view/DC_Memory.html
+  */
