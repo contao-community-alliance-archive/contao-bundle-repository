@@ -1,0 +1,44 @@
+
+  #submit_bundle_install {
+	margin-top:15px;
+  }
+  
+  #ctrl_bundles_list ul {
+	margin:0;
+	padding:0;
+  }
+  
+  #ctrl_bundles_list li {
+	padding:8px 0;
+	list-style-type:none;
+	width:100%;
+	overflow:hidden;
+  }
+
+  .install_info {
+	width:400px;
+	float:left;
+	line-height:1.6em;
+  }
+
+  .install_button {
+	width:180px;
+	padding:5px 0;
+	float:right;
+  }
+  
+  .install_button .tl_submit {
+	float:right;
+  }
+
+  .pagination ul {
+	text-align:left;
+	border-bottom:1px solid #6e6060;
+	height:2.2em;
+  }
+  
+  .pagination li {
+	float:left;
+	padding-left:8px;
+	list-style-type:none;
+  }
