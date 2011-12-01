@@ -19,7 +19,7 @@ class tl_bundle_client_settings extends Backend
 		{
 			$this->import("Config");
 			
-			$GLOBALS['TL_CONFIG']['bundle_server_requestUrl']='http://kunden.ktrion.de/vhosts/contao-bundle-server/';
+			$GLOBALS['TL_CONFIG']['bundle_server_requestUrl']='http://contao-bundles.org/';
 			$this->Config->update("\$GLOBALS['TL_CONFIG']['bundle_server_requestUrl']", $GLOBALS['TL_CONFIG']['bundle_server_requestUrl']);
 	
 			
