@@ -27,9 +27,7 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Bundle manager', '');
-$GLOBALS['TL_LANG']['MSC']['version_to'] = 'to';
-
-$GLOBALS['TL_LANG']['ERR']['no_bundle_server'] = 'Keine Daten vorhanden.<br> Bitte prüfe den Bundle-Server in den Contao-Einstellungen.';
+$GLOBALS['TL_LANG']['tl_settings']['areaBundles_legend'] = 'Bundle repository';
+$GLOBALS['TL_LANG']['tl_settings']['bundle_server_requestUrl'] = array('Bundle repository URL', 'Here you can enter the URL of the bundle repository.');
 
 ?>

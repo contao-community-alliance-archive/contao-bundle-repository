@@ -27,9 +27,17 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Bundle manager', '');
-$GLOBALS['TL_LANG']['MSC']['version_to'] = 'to';
+/**
+ * Legends
+ */
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['edit'] = 'Install contao bundles';
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['legend_manuell'] = 'Manual installation';
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['legend_bundlelist'] = 'Available bundles';
 
-$GLOBALS['TL_LANG']['ERR']['no_bundle_server'] = 'Keine Daten vorhanden.<br> Bitte prüfe den Bundle-Server in den Contao-Einstellungen.';
+/**
+ * Fields
+ */
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['bundle_install'] = array('Manual installation', 'Please enter the hash key of the bundle.', 'Install bundle');
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['bundles_list'] = array('Available bundles', '', 'Install bundle');
 
 ?>

@@ -28,6 +28,8 @@
  */
 
 $GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Bundleverwaltung', '');
-$GLOBALS['TL_LANG']['MSC']['version_till'] = 'bis';
+$GLOBALS['TL_LANG']['MSC']['version_to'] = 'bis';
+
+$GLOBALS['TL_LANG']['ERR']['no_bundle_server'] = 'No data available. Please check the bundle server url in the contao settings.';
 
 ?>

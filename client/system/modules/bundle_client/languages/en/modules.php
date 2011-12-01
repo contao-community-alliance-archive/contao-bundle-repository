@@ -27,9 +27,9 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Bundle manager', '');
-$GLOBALS['TL_LANG']['MSC']['version_to'] = 'to';
-
-$GLOBALS['TL_LANG']['ERR']['no_bundle_server'] = 'Keine Daten vorhanden.<br> Bitte prüfe den Bundle-Server in den Contao-Einstellungen.';
+/**
+ * Back end modules
+ */
+$GLOBALS['TL_LANG']['MOD']['bundle_client'] = 'Bundle client';
 
 ?>

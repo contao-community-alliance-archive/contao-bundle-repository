@@ -119,7 +119,7 @@ class tl_bundle_client_overview extends Backend
 
         if ($objRequest->hasError())
         {
-            $dc->setData("bundles_list", 'Keine Daten vorhanden.<br>Bitte die BundleAnbindung in den Einstellungen ueberpruefen');
+            $dc->setData("bundles_list", $GLOBALS['TL_LANG']['ERR']['no_bundle_server']);
             return;
         }
 
@@ -160,7 +160,7 @@ class tl_bundle_client_overview extends Backend
 	<div class="install_button">
 <input type="submit" class="tl_submit" value="%s" name="bundle_hash_%s" />
 
-</li>', $package->extensions, Repository::formatCoreVersion($package->min_version) . ' ' . $GLOBALS['TL_LANG']['MSC']['version_till'] . ' ' . Repository::formatCoreVersion($package->max_version), $GLOBALS['TL_LANG']['tl_bundle_client_overview']['bundles_list'][2], $package->name
+</li>', $package->extensions, Repository::formatCoreVersion($package->min_version) . ' ' . $GLOBALS['TL_LANG']['MSC']['version_to'] . ' ' . Repository::formatCoreVersion($package->max_version), $GLOBALS['TL_LANG']['tl_bundle_client_overview']['bundles_list'][2], $package->name
             );
         }
 
@@ -176,7 +176,7 @@ class tl_bundle_client_overview extends Backend
 
         if ($objRequest->hasError())
         {
-            $dc->setData("bundles_list", 'No data available. Define URL in Settings !');
+            $dc->setData("bundles_list", $GLOBALS['TL_LANG']['ERR']['no_bundle_server']);
             return;
         }
 
