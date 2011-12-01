@@ -27,7 +27,7 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Bundleverwaltung', '');
-$GLOBALS['TL_LANG']['MSC']['version_till'] = 'bis';
+$GLOBALS['TL_LANG']['tl_settings']['areaBundles_legend'] = 'Bundle Repository';
+$GLOBALS['TL_LANG']['tl_settings']['bundle_server_requestUrl'] = array('Bundle Repository-URL', 'Hier können Sie die URL des Bundle Repositories eingeben.');
 
 ?>

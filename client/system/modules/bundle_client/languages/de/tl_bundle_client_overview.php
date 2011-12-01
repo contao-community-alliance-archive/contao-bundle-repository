@@ -27,7 +27,17 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Bundleverwaltung', '');
-$GLOBALS['TL_LANG']['MSC']['version_till'] = 'bis';
+/**
+ * Legends
+ */
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['edit'] = 'Contao Bundles installieren';
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['legend_manuell'] = 'Manuelle Installation';
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['legend_bundlelist'] = 'Verfügbare Pakete';
+
+/**
+ * Fields
+ */
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['bundle_install'] = array('Manuelle Installation', 'Geben Sie hier bitte den Hash-Key des Pakets ein.', 'Paket installieren');
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['bundles_list'] = array('Verfügbare Pakete', '', 'Paket installieren');
 
 ?>

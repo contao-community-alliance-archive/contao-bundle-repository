@@ -27,7 +27,9 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Bundleverwaltung', '');
-$GLOBALS['TL_LANG']['MSC']['version_till'] = 'bis';
+/**
+ * Back end modules
+ */
+$GLOBALS['TL_LANG']['MOD']['bundle_client'] = 'Bundle-Client';
 
 ?>
