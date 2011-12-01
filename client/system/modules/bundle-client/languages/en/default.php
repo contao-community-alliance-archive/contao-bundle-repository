@@ -1,5 +1,6 @@
 <?php
 
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['edit'] = 'Bundle Repository';
 $GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array("Bundle Repository","");
 
 $GLOBALS['TL_LANG']['tl_bundle_client_overview']['bundle_install'] = array("Manual installation of BundlePackage","Enter the Hash Tag for the bundle","Install this bundle");
