@@ -36,3 +36,6 @@ array_insert($GLOBALS['BE_MOD']['system'], -1, array
 	),
 ));
 
+// default url for the bundles xml
+$GLOBALS['TL_CONFIG']['bundle_server_requestUrl'] = 'http://www.contao-bundles.org/';
+
