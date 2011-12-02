@@ -113,7 +113,7 @@ class tl_bundle_client_overview extends Backend
 
 
         $objRequest = new Request();
-        $strRequestUrl = $GLOBALS['TL_CONFIG']['bundle_server_requestUrl'] . 'bundle-list.xml';
+        $strRequestUrl = $GLOBALS['TL_CONFIG']['bundle_server_requestUrl'] . 'bundles/bundle-list.xml';
 
         $objRequest->send($strRequestUrl);
 
