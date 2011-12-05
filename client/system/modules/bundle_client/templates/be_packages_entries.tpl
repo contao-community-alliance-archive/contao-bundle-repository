@@ -1,0 +1,22 @@
+<ul>
+    <?php foreach ($this->packages as $key => $package): ?>
+        <li>
+            <div class="install_info">
+                <span><?php echo str_replace(",", ", ", $package['extensions']); ?></span>       
+                <br />
+                <span>
+                <?php if($package['min_version'] > $package['min_version']): ?>
+                    <?php echo $GLOBALS['TL_LANG']['ERR']['version_conflict']; ?>
+                <?php else: ?>
+                    <?php echo $package['min_version_readable']; ?> <?php echo $GLOBALS['TL_LANG']['MSC']['version_to']; ?> <?php echo $package['max_version_readable']; ?>
+                <?php endif; ?>
+                </span>
+            </div>
+            <div class="install_button">
+                <input type="submit" class="tl_submit" value="<?php echo $this->send ?>" name="bundle_hash_<?php echo $package['name']; ?>" id="bundle_hash_<?php echo $package['name']; ?>" />
+            </div>    
+        </li>   
+    <?php endforeach; ?>   
+</ul>
+
+<?php echo $this->pagination; ?>

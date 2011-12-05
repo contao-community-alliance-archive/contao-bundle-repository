@@ -30,6 +30,6 @@
 /**
  * Back end modules
  */
-$GLOBALS['TL_LANG']['MOD']['bundle_client'] = 'Bundle-Client';
+$GLOBALS['TL_LANG']['MOD']['bundle_client'] = 'Paket-Client';
 
 ?>

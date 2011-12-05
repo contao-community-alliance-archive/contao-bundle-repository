@@ -30,7 +30,7 @@
 /**
  * Legends
  */
-$GLOBALS['TL_LANG']['tl_bundle_client_overview']['edit'] = 'Contao Bundles installieren';
+$GLOBALS['TL_LANG']['tl_bundle_client_overview']['edit'] = 'Contao Pakete installieren';
 $GLOBALS['TL_LANG']['tl_bundle_client_overview']['legend_manuell'] = 'Manuelle Installation';
 $GLOBALS['TL_LANG']['tl_bundle_client_overview']['legend_bundlelist'] = 'Verfügbare Pakete';
 

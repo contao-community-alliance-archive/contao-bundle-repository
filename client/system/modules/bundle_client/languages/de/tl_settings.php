@@ -27,7 +27,7 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['tl_settings']['areaBundles_legend'] = 'Bundle Repository';
-$GLOBALS['TL_LANG']['tl_settings']['bundle_server_requestUrl'] = array('Bundle Repository-URL', 'Hier können Sie die URL des Bundle Repositories eingeben.');
+$GLOBALS['TL_LANG']['tl_settings']['areaBundles_legend'] = 'Paket Repository';
+$GLOBALS['TL_LANG']['tl_settings']['bundle_server_requestUrl'] = array('Paket Repository-URL', 'Hier können Sie die URL des Paket Repositories eingeben.');
 
 ?>

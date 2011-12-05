@@ -30,15 +30,39 @@
   .install_button .tl_submit {
 	float:right;
   }
+  
+  .pagination {
+	border-top:1px solid #DDDDDD;
+	margin-top:20px;
+	padding-top:20px;
+  }
+  
+  .pagination p {
+	font-weight:bold;
+	display:none;
+  }
 
   .pagination ul {
-	text-align:left;
-	border-bottom:1px solid #6e6060;
-	height:2.2em;
+	overflow:hidden;
+	width:auto;	
   }
   
   .pagination li {
 	float:left;
-	padding-left:8px;
 	list-style-type:none;
+	width:auto !important;
+	margin-right:10px;
+	background: none repeat scroll 0 0 #808080;
+    border: 0 none;
+	padding:0 !important;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 3px #BBBBBB;
+	text-shadow:1px 1px 0 #666666;
+  }
+  
+  .pagination li a, 
+  .pagination li span {
+    color:#FFFFFF;
+    padding:5px 10px;
+	display:block;
   }

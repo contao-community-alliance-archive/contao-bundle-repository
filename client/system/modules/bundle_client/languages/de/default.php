@@ -27,9 +27,11 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Bundleverwaltung', '');
+$GLOBALS['TL_LANG']['MOD']['bundle_overview'] = array('Paketverwaltung', '');
 $GLOBALS['TL_LANG']['MSC']['version_to'] = 'bis';
 
-$GLOBALS['TL_LANG']['ERR']['no_bundle_server'] = 'No data available. Please check the bundle server url in the contao settings.';
+$GLOBALS['TL_LANG']['ERR']['no_bundle_server'] = 'Es sind keine Daten verfügbar. Bitte prüfe die Paket Repository-URL in den Einstellungen.';
+$GLOBALS['TL_LANG']['ERR']['no_bundle_xml'] = 'Das Paket konnte nicht gefunden werden. Bitte prüfe die Paket Repository-URL in den Einstellungen.';
+$GLOBALS['TL_LANG']['ERR']['version_conflict'] = 'Versionskonflikt. Nutzung auf eigene Gefahr.';
 
 ?>
